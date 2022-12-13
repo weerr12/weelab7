@@ -19,7 +19,7 @@ int main(){
 	        }
 	        i++;
 	  }
-	            cout <<"Result= "<<result;
+	            cout <<"Result = "<<result;
 	        }else{
 	            cout<<"lnvalid input!!!";
 	        }
