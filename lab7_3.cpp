@@ -1,7 +1,15 @@
 #include<iostream>
 
 using namespace std;
+//การเติมคำตอบในช่องนี้ ขอให้เติมเฉพาะ Function adiff() เท่านั้น โดยห้ามเติม Function main() มาในนี้
 
+int adiff(int x,int y){
+    if(x>y){
+        return (x-y)%360;
+    }else{
+        return (y-x)%360;
+    }
+}
 
 int main(){
   cout << adiff(180,270);

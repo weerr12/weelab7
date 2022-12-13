@@ -37,10 +37,8 @@ int main(){
 	string text;
     cout << "Input text: ";
 	cin >> text;
-	string revers = func1(text);
-	func2(revers);
     cout << "Reversed text: " << func1(text) <<endl;
-	if(func2(text) == func2(revers)){
+	if(func1(text) == text){
 		cout << "Palindrome: Yes";
 	}else{
 		cout << "Palindrome: No";
